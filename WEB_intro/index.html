@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GRADUATION THESIS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Fonts -->
+    <!-- Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/themefisher-fonts/themefisher-fonts.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive Stylesheet -->
+    <style>
+        .bg{
+            background-image: url("images/back.png");
+            height: 100%; 
+            background-position: center;
+            background-size: cover;
+          }
+        .titel{
+            color: white;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <div id="preloader-wrapper">
+        <div class="pre-loader"></div>
+    </div>
+<div class="bg">
+    <!-- navigation -->
+    <header>
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">TCD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-center text-lg-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- /navigation -->
+
+    <!-- hero area -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 align-self-center text-center text-md-left">
+                    <div class="block">
+                        <h1 class="font-weight-bold mb-4 font-size-50 titel" >APPLICATION OF MACHINE LEARNING MODE TO MICROCONTROLLERS - AUTOMATION 
+                            OF IOT EDGE DEVICES</h1>
+                        <h2 class="mb-4">The topic uses a machine learning model to realize the automatic process of lights and fans through training data on temperature, humidity, light and whether or not people are in the room.</h2>
+                        
+                    </div>
+                </div>
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- header close -->
+
+</div>
+    <!-- 
+        Feature start
+        ==================== -->
+    <section class=".bg-warning.bg-gradient section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading">
+                        <h2>System model</h2>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">Node sensor</h4>
+                        <p>Node temperature, humidity, light level, dectect people</p>
+                    </div>
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">Gateway</h4>
+                        <p>Build gateway with esp32 microcontroller, applycation model machine learning on gateway control lamp & fan.</p>
+                    </div>
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">Node switch</h4>
+                        <p>Device turn on, turn off lamp and fan </p>
+                    </div>
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">Server</h4>
+                        <p>Server node js connects to gateway and mobile app</p>
+                    </div>
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">App mobile</h4>
+                        <p>Using reactnative platform, connect to the server to monitor and control sensors and devices</p>
+                    </div>
+                    <div class="mb-40 text-center text-md-left">
+                        <h4 class="font-weight-bold mb-2">Protocol</h4>
+                        <p>Use RF radio protocol to transmit information between gateway and device node. 
+                            MQTT protocol for transmitting and receiving information between gateway and server. 
+                            And use socket.io to communicate between mobile app and server.</p>
+                    </div>
+                </div>
+                <div class="col-md-9 text-center align-self-center mb-4 mb-md-0">
+                    <img class="img-fluid" src="images/system.png" alt="">
+                </div>
+             
+            </div>
+        </div><!-- .container close -->
+    </section><!-- #service close -->
+    <section class="bg-orange section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center mb-5 mb-lg-0">
+                    <img class="img-fluid" src="images/neural.png" alt="">
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-left">
+                    <div class="content">
+                        <h2 class="subheading text-white font-weight-bold mb-10">Neural network in the model</h2>
+                        <h4 class="text-white">Use layers with number of buttons tested: Input layer 100 units, two layers Hidden layer 64 units and 16 units, Output layer with 2 units</h4>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Step by step buld model ML on microcontroller</h2>
+                        <img class="img-fluid" src="images/tflite.png" alt="">
+                    </div>
+                </div>
+            </hr>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-orange feature-list section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2>Conclude</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-40">
+                <div class="col-md-6 text-center mb-5 mb-lg-0">
+                    <img class="img-fluid" src="images/esp32.png" alt="">
+                </div>
+                <div class="col-md-6 align-self-center text-center text-md-left">
+                    <div class="content">
+                        <h3 class="subheading">Edge computing on gateway </h3>
+                        <h4>Edge computing is a technology that brings computing to the end devices. 
+                            In EDGE-C the computations performed at the centre of the network which is the cloud is moved to end devices. 
+                            This reduces the complexity and overhead of processing large computation in the cloud. 
+                            This also decreases the network usage and enables fast responses which result in better transfer rate.</h4>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+                    <div class="content">
+                        <h3 class="subheading">App mobile</h3>
+                        <h4>App monitoring temperature, humidity, light level, count people and control lamp & fan</h4>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
+                    <img class="img-fluid" src="images/app.jpg" alt="" width="400">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                    </br>
+                        <h2>Image hardware products</h2>
+                    </div>      
+                </div>
+            </div>
+           
+                <div class="row">
+                    <div class="col-md-3 text-center mb-5 mb-lg-0">
+                        <img class="img-fluid" src="images/gateway.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 text-center mb-5 mb-lg-0">
+                        <img class="img-fluid" src="images/nodesensor.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 text-center mb-5 mb-lg-0">
+                        <img class="img-fluid" src="images/count.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 text-center mb-5 mb-lg-0">
+                        <img class="img-fluid" src="images/switch.jpg" alt="">
+                    </div>
+                 
+             
+            </div>
+        </div>
+    </section>
+
+
+    <section class="call-to-action section bg-opacity bg-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 text-center mx-auto">
+                  
+                    <div class="input-group">
+                   
+                    </div><!-- /input-group -->
+                </div>
+            </div>
+        </div>
+    </section><!-- #call-to-action close -->
+
+
+    <section class="testimonials section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="heading">
+                        <h2>Thank you</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-center">
+                    <div class="testimonial-block">
+                        <i class="tf-ion-quote"></i>
+                        <p>
+                            Sincere thanks to Mr. Vo Hung Cuong for his guidance and guidance so that I could carry out and complete the project well. Thanks very much
+                        </p>
+                        <div class="author-details">
+                            <img src="images/tc.jpg" alt="">
+                            <h4>Mr. Vo Hung Cuong</h4>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-center">
+                    <div class="testimonial-block">
+                        <i class="tf-ion-quote"></i>
+                        <p>
+                            Thank you VKU University and teachers for the past 4 years for their enthusiastic teaching and guidance.
+                             A dynamic and knowledgeable learning environment
+                        </p>
+                        <div class="author-details">
+                            <img src="images/vku.png" alt="">
+                            <h4>VKU University</h4>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+               
+                
+            </div>
+            <div class="row mt-100">
+                <div class="col-md-12 text-center">
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                      
+                        <ul class="list-inline footer-menu">
+                            <li class="list-inline-item">
+                                <a href="#">HOME</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#about">ABOUT</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#service">SERVICES</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#contact">CONTACT</a>
+                            </li>
+                        </ul>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Js -->
+    <script src="plugins/jquery-2.1.1.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
